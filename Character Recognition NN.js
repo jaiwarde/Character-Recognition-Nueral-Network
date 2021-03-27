@@ -4,18 +4,13 @@
 // with many modifications 
 
 
-// --- defined by MNIST - do not change these ---------------------------------------
-
+// defined for the MNIST
 const PIXELS        = 28;                       // images in data set are tiny 
 const PIXELSSQUARED = PIXELS * PIXELS;
 
 // number of training and test exemplars in the data set:
 const NOTRAIN = 60000;
 const NOTEST  = 10000;
-
-
-
-//--- can modify all these --------------------------------------------------
 
 // no of nodes in network 
 const noinput  = PIXELSSQUARED;
